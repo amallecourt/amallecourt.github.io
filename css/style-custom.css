@@ -1,0 +1,72 @@
+.signature {
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.ftco-bread {
+  padding: 2em 2.8em !important;
+}
+
+.ftco-section {
+  padding: 3em 1.8em;
+}
+
+.blog-entry {
+    margin-bottom: 3em;
+}
+
+.contact-info {
+  margin-bottom: 2rem !important;
+}
+
+.resume-list {
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 110px;
+	border-left: 2px solid #40424a;
+}
+
+.resume-list li {
+	margin-bottom: 2em;
+	position: relative;
+}
+
+.resume-list li:last-child {
+	margin-bottom: 0;
+}
+
+.resume-list li:after {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border: 2px solid #40424a;
+	border-radius: 50px;
+	background: #cacaca;
+	top: 30px;
+	left: -118px;
+}
+
+.resume-list h2 {
+	font-size: 60px;
+	/* margin-bottom: 10px; */
+}
+
+.resume-list h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #808181;
+	margin-top: 10px;
+	/* margin-bottom: 45px; */
+}
+
+.resume-list p {
+	margin-bottom: 0;
+}
+
+.company-logo {
+  width: 80%;
+}
+
+.footer-title {
+  color: white;
+}
