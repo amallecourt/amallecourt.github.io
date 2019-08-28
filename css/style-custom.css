@@ -70,3 +70,11 @@
 .footer-title {
   color: white;
 }
+
+#colorlib-aside #colorlib-logo {
+  margin-bottom: 0em;
+}
+
+#colorlib-aside #logo-subtitle {
+  margin-bottom: 1.5em;
+}
