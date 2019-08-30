@@ -63,8 +63,24 @@
 	margin-bottom: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .resume-list {
+		margin-left: 0;
+		padding-left: 0;
+		border-left: none;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+  .resume-list h2 {
+		font-size: 40px;
+	}
+}
+
 .company-logo {
   width: 80%;
+  padding-bottom: 20px;
+  padding-top: 15px;
 }
 
 .footer-title {
@@ -110,4 +126,15 @@
 
 .category-text {
   color: black !important;
+}
+
+#colorlib-aside {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media (max-width: 991.98px) {
+  .hero-wrap .text .desc h1.big-letter {
+      font-size: 22px;
+  }
 }
